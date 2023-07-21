@@ -1,1 +1,1 @@
-Practise Some C
+Practise some C
