@@ -7,7 +7,7 @@
  * Description:show if last degit of number is(>5) or (=0) or (<6) and not 0
  *
  * Return: 0
- * */
+*/
 int main(void)
 {
 	int n, last_digit;
@@ -22,7 +22,7 @@ int main(void)
 	}
 	else if (last_digit < 6 && last_digit != 0)
 	{
-		printf("Last digit of %i is %i and is less than 6 and not 0\n",n,last_digit);
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, last_digit);
 	}
 	else
 	{
