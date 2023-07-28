@@ -15,7 +15,7 @@ int main(void)
 	}
 	for(C = 'A' ; C <= 'Z' ; C++)
 	{
-		putchar(c);
+		putchar(C);
 	}
 	putchar('\n');
 	return 0;
