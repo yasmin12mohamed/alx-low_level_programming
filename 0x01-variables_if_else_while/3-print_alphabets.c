@@ -2,7 +2,7 @@
 /*
  * main - entry point
  *
- * Description:Print alphabet in upper and lowercases
+ * Description:Print alphabet in upper and lowercases by putchar function
  *
  * Return: 0
  */
