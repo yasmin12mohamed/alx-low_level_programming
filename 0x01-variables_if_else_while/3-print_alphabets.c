@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - entry point
+ * main - Entry point
  *
  * Description:Print alphabet in upper and lowercases by putchar function
  *
