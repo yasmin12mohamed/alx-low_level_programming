@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - main block
  *
  * Description: Print alphabets in lowercases except e and q by putchar
