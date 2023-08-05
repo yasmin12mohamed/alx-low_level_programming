@@ -9,14 +9,7 @@
  */
 int main(void)
 {
-	putchar(95);
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
+	char Put[] = "_putchar";
+	putchar(put);
 	return (0);
 }
