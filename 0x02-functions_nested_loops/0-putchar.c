@@ -8,13 +8,14 @@
  */
 int main(void)
 {
-	char d[9] = "_putchar";
+	char S[10] = "_putchar";
+
 	int i;
 
-	for (i = 0; i < 8; i ++)
+	for (i = 0; i < 8; i++)
 	{
-		int _putchar('d[i]');
-		int _putchar(10);
+		_putchar(S[i]);
 	}
+	_putchar(10);
 	return (0);
 }
