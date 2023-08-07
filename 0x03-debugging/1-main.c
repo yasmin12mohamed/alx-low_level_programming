@@ -1,12 +1,3 @@
-#include "main.h"
-
-/**
- * main - main block
- *
- * Description:causes of infinite loop
- *
- * Return: 0
- */
 #include <stdio.h>
 
 /**
@@ -26,7 +17,12 @@ int main(void)
         {
                 putchar(i);
         }
-
+	/**
+	 * while (i < 10)
+	 * {
+	 * 	putchar(i);
+	 * }
+	 */
         printf("Infinite loop avoided! \\o/\n");
 
         return (0);

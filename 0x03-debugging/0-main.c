@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - main block
  *
@@ -13,5 +12,6 @@ int main(void)
 
 	num = 0;
 	positive_or_negative(num);
+
 	return (0);
 }
