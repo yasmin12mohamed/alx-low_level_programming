@@ -2,14 +2,23 @@
 /**
  * main - main block
  *
- * Description: Write a program that prints _putchar
+ * Description:program that prints _putchar
  *
  * Return: 0
- *
  */
 int main(void)
 {
-	char P[] = "_putchar";
-	_putchar(P);
+	void _putchar()
+	{
+		_putchar('_');
+		_putchar('p');
+		_putchar('u');
+		_putchar('t');
+		_putchar('c');
+		_putchar('h');
+		_putchar('a');
+		_putchar('r');
+		_putchar('\n');
+	}
 	return (0);
 }
