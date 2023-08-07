@@ -2,7 +2,7 @@
 /**
  * main - main block
  *
- * Description: Test positive_or_negative()function
+ * Description: Test function resposible for determining the number is positive or negative
  *
  * Return: 0
  */
