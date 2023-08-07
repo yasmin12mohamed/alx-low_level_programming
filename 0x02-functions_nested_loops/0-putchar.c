@@ -8,17 +8,11 @@
  */
 int main(void)
 {
-	char _putchar()
-	{
-		_putchar('_');
-		_putchar('p');
-		_putchar('u');
-		_putchar('t');
-		_putchar('c');
-		_putchar('h');
-		_putchar('a');
-		_putchar('r');
+	char d[9] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8; i ++)
+		-putchar(d[i]);
 		_putchar('\n');
-	}
 	return (0);
 }
