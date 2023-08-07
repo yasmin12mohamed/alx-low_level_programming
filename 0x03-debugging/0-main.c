@@ -2,7 +2,7 @@
 /**
  * main - main block
  *
- * Description: Test function resposible for determining the number is positive or negative
+ * Description:test a function
  *
  * Return: 0
  */
