@@ -2,7 +2,7 @@
 /**
  * main - main block
  *
- * description: Test positive_or_negative()function
+ * Description: Test positive_or_negative()function
  *
  * Return: 0
  */
