@@ -1,15 +1,14 @@
 #include "main.h"
 /**
- * _islower - the function to check the character
+ * _islower -  _islower block
  *
- * Description:checks for lowercase character
+ * Description: checks for lowercase character.
+ * @c: parameter to be verified
  *
  * Return: 0 or 1
  */
 int _islower(int c)
 {
-	int c;
-
 	if (c >= 97 && c <= 122)
 	{
 		return (1);
