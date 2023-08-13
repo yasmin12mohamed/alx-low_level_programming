@@ -3,7 +3,7 @@
  * print_last_digit - print_last_digit block
  *
  * Description: prints the last digit of a number
- * @i: parameter to be verified
+ * @i: number to determine the last digit of
  *
  * Return: the last digit
  */
