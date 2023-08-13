@@ -3,19 +3,17 @@
  * print_last_digit - print_last_digit block
  *
  * Description: prints the last digit of a number
- * @r: parameter to be verified
+ * @i: parameter to be verified
  *
- * Return: 0
+ * Return: the last digit
  */
-int print_last_digit(int r)
+int print_last_digit(int i)
 {
-	int num;
-	num = r % 10;
-
-	if (num < 0)
+	if (i < 0)
 	{
-		num = num * -1;
-		_putchar(num + '0');
+		i = i * -1;
 	}
-	return (num);
+	_putchar((n % 10) + '0');
+	return (n % 10);
 }
+
