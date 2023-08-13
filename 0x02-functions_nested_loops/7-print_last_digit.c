@@ -3,16 +3,20 @@
  * print_last_digit - print_last_digit block
  *
  * Description: prints the last digit of a number
- * @i: number to determine the last digit of
+ * @n: number to determine the last digit of
  *
  * Return: the last digit
  */
-int print_last_digit(int i)
+int print_last_digit(int n)
 {
-	if (i < 0)
+	int r;
+
+	r = n % 10;
+
+	if (r < 0)
 	{
-		i = i * (-1);
+		r *= -1;
 	}
-	_putchar('0' + (i % 10));
-	return (i % 10);
+	_putchar (r + '0');
+	return (r);
 }
