@@ -5,20 +5,27 @@
  * Description:prints all natural numbers from n to 98
  * @n:parameter to be verified
  *
- * Return: (0)
+ * Return: nothing
  */
 void print_to_98(int n)
 {
-	for (n = n; n <= 98; n++)
+	if (n > 98)
 	{
-		_putchar(n);
-		_putchar(',');
-		_putchar(' ');
+		for (n = n; n >= 98; n--)
+		{
+			putchar(n + '0');
+			putchar(',');
+			putchar(' ');
+		}
 	}
-	for (n = n; n > 98; n--)
+	else
 	{
-		_putchar(n);
-		_putchar(',');
-		_putchar(' ');
+		for (n = n; n <= 98; n++)
+		{
+			putchar(n + '0');
+			putchar(',');
+			putchar(' ');
+		}
 	}
+	putchar('\n');
 }
