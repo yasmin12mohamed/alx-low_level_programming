@@ -13,6 +13,6 @@ int mul(int a, int b)
 	int multi;
 
 	multi = a * b;
-	_putchar(multi);
+	_putchar(multi + '0');
 	return (multi);
 }
