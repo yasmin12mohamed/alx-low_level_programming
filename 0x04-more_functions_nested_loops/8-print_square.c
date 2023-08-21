@@ -21,12 +21,8 @@ void print_square(int size)
 		{
 			for (column = 1; column <= size; size++)
 			{
-				if (size == column)
-				{
-					_putchar(35);
-				}
-			}
 			_putchar('\n');
+			}
 		}
 	}
 }
