@@ -25,8 +25,11 @@ int main(void)
 		{
 			printf("FizzBuzz");
 		}
-		printf("%d", k);
-		putchar(' ');
+		else
+		{
+			printf("%d", k);
+			putchar(' ');
+		}
 	}
 	return (0);
 }
