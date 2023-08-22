@@ -9,21 +9,18 @@
  */
 void rev_string(char *s)
 {
-	char str;
-	int x, words, words1;
+	char string = s[0];
+	int count = 0;
+	int x;
 
-	words = 0;
-	words1 = 0;
-
-	while (s[words] != '\0')
+	while (s[count] != '\0')
 	{
-		words++;
+		count++;
 	}
-
-	words1 = words - 1;
-
-	for (x = 0; x < words / 2; words++)
+	for (x = 0; x < count; x++)
 	{
-		str = s[x];
-		s[x] = s[words1];
-		s[words1] = str;
+		count--;
+		string = s[x];
+		s[x] = s[count];
+		s[count] = string;
+	}
