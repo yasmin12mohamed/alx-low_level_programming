@@ -26,4 +26,4 @@ void rev_string(char *s)
 	{
 		str = s[x];
 		s[x] = s[words1];
-		s[words1--] = str;
+		s[words1] = str;
