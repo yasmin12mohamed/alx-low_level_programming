@@ -1,4 +1,4 @@
-#includew "main.h"
+#include "main.h"
 /**
  * *_strcpy - *_strcpy block
  *
