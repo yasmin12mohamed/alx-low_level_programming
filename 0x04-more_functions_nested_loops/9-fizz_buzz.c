@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * main - main block
  *
@@ -33,7 +32,7 @@ int main(void)
 		{
 			printf(" %d", k);
 		}
-		Printf("\n");
+		putchar('\n');
 	}
 	return (0);
 }
