@@ -7,12 +7,12 @@
  *
  * Return: the result
  */
-har *leet(char *s)
+char *leet(char *s)
 {
 	int k, h;
 
 	char *a = "aAeEoOtTlL";
-	char *b = "4433007711";
+	char *b = "443300771";
 
 	for (k = 0; s[k] != '\0'; k++)
 	{
