@@ -11,8 +11,8 @@ har *leet(char *s)
 {
 	int x, y;
 
-	char *a = "aAeEoOtTlL";
-	char *b = "4433007711";
+	char w1[] = "aAeEoOtTlL";
+	char w2[] = "4433007711";
 
 	for (x = 0; s[x] != '\0'; x++)
 	{
