@@ -9,18 +9,18 @@
  */
 har *leet(char *s)
 {
-	int x, y;
+	int k, h;
 
-	char w1[] = "aAeEoOtTlL";
-	char w2[] = "4433007711";
+	char *a = "aAeEoOtTlL";
+	char *b = "4433007711";
 
-	for (x = 0; s[x] != '\0'; x++)
+	for (k = 0; s[k] != '\0'; k++)
 	{
-		for (y = 0; y < 10; y++)
+		for (h = 0; h < 10; h++)
 		{
-			if (s[x] == w1[y])
+			if (s[k] == a[h])
 			{
-				s[x] = w2[y];
+				s[k] = b[h];
 			}
 		}
 	}
