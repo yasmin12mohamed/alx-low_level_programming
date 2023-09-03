@@ -10,15 +10,21 @@
  */
 char *_strchr(char *s, char c)
 {
-	while (*s)
-	{
-		if (*s != c)
-			s++;
-		else
-			return (s);
-	}
-	if (c == '\0')
-		return (s);
+	char str[];
+	*s = str;
+	int index = 0;
 
-	return (NULL);
-}
+	while (*s != c)
+	{
+		++s;
+		++index;
+	}
+	if (*s == c)
+	{
+		return (c);
+	}
+	else 
+	{
+		return (NULL);
+	}
+}	
