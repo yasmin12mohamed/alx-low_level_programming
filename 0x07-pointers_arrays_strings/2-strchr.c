@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 /**
  * *_strchr - *_strchr block
  *
@@ -8,8 +9,6 @@
  *
  * Return: NULL or c
  */
-char *_strchr(char *s, char c)
-{
 char *_strchr(char *s, char c)
 {
 	while (*s)
