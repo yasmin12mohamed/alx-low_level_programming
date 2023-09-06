@@ -28,7 +28,7 @@ char *_strdup(char *str)
 		len++;
 		}
 	}
-	dup = malloc(sizeof(chatr) * (len + 1));
+	dup = malloc(sizeof(char) * (len + 1));
 
 	if (dup == NULL)
 	{
@@ -38,7 +38,7 @@ char *_strdup(char *str)
 	{
 		while ((dup[i] == str[i]) != '\0')
 		{
-			return (ptr);
+			return (dup);
 		}
 	}
 }
