@@ -37,8 +37,7 @@ char *_strdup(char *str)
 	else
 	{
 		while ((dup[i] == str[i]) != '\0')
-		{
-			return (dup);
-		}
+
+		return (dup);
 	}
 }
