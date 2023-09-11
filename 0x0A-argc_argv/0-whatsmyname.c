@@ -1,19 +1,19 @@
 #include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
 /**
  * main - main block
  *
  * Description: that prints its name, followed by a new line.
+ * @argc: number of arguments
+ * @argv: the arguments
  *
  * Return: 0
  */
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
-	int x;
-
-	for (x = 0; x < argc; x++)
+	if (argc < 2)
 	{
-		printf("programe name is: %s\n", argv);
+		printf("%s\n", argv[0]);
 	}
 	return (0);
 }
