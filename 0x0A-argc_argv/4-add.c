@@ -21,6 +21,7 @@ int main(int argc, char *argv[])
 			if (isdigit(x))
 			{
 				int sum = 0;
+
 				sum = sum + atoi(argv[x]);
 				printf("%d\n", sum);
 			}
