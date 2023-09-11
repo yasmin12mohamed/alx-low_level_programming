@@ -5,15 +5,15 @@
  *
  * Description: that prints its name, followed by a new line.
  *
- * Return: nothing
+ * Return: 0
  */
-void main(int argc, char *argv[])
+int main(int argc, char argv[])
 {
 	int x;
 
 	for (x = 0; x < argc; x++)
 	{
-		_putchar(argv);
-		_putchar('\n');
+		printf("programe name is: %s\n", argv);
 	}
+	return (0);
 }
