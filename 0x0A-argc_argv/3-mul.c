@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - main block
  *
@@ -13,7 +14,7 @@ int main(int argc, char *argv[])
 	if (argc == 3)
 	{
 		int result;
-		result = atoi(argv[1]) *  atoi(argv[2]);
+		result = atoi(argv[1]) * atoi(argv[2]);
 		printf("%d\n", result);
 	}
 	else
