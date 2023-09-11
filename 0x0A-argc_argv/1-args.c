@@ -10,9 +10,12 @@
  */
 int main(int argc, char *arg[])
 {
-	if (argc > 0)
+	printf("argc is: %d\n", argc - 1);
+	int x;
+
+	for (x = 0; x < argc ; x++)
 	{
-		printf("argc: %d\n", argc - 1);
+		printf("%s\n", argv[x]);
 	}
 	return (0);
 }
