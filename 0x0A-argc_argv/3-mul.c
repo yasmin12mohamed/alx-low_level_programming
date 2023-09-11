@@ -6,24 +6,20 @@
  * @argc: number of counts
  * @argv: the arguments
  *
- * Return: (0)
+ * Return: (1) or (0)
  */
 int main(int argc, char *argv[])
 {
-	if (argc < 2)
+	if (argc == 3)
 	{
-		printf("Error\n");
-		return (1);
+		int result;
+		result = atoi(argv[1]) *  atoi(argv[2]);
+		printf("%d\n", result);
 	}
 	else
 	{
-		int i, x, y, result;
-
-		for (i = 0; i < argc; i++)
-		{
-			result = x * y;
-			printf("%s\n", argv[result]);
-		}
+		printf("Error\n");
+		return (1);
 	}
 	return (0);
 }
