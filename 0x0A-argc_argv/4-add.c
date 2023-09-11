@@ -16,20 +16,19 @@ int main(int argc, char *argv[])
 	{
 		int x;
 
-		for (x = 0; x < argc; x++)
+		for (x = 1; x < argc; x++)
 		{
-			if (isdigit(argv[x]) == 0)
-			{
-				printf("Error\n");
-				return (1);
-			}
-			else
+			if (isdigit(argv[x]))
 			{
 				int sum = 0;
 
 				sum = sum + atoi(argv[x]);
-
 				printf("%d\n", sum);
+			}
+			else
+			{
+				printf("Error\n");
+				return (1);
 			}
 		}
 	}
