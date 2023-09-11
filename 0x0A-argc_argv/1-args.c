@@ -10,7 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("number of arguments is: %d\n", argc);
+	print("%d\n", argc);
 
 	if (argc > 2)
 	{
