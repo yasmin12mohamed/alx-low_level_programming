@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
-	else
+	else if (argc < 2)
 	{
 		printf("0\n");
 	}
