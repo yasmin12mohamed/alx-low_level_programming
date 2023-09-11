@@ -10,9 +10,11 @@
  */
 int main(int argc, char *argv[])
 {
-	if (argc > 0)
+	printf("number of arguments is: %d\n", argc);
+
+	if (argc > 2)
 	{
-		printf("number of arguments is: %d\n", argc);
+		printf("argv: %s\n", argv[0]);
 	}
 	return (0);
 }
