@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	if (argc < 2)
 		printf("0\n");
 
-	else if (argc > 2)
+	else
 	{
 		int x;
 
