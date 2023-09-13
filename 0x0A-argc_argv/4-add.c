@@ -12,7 +12,10 @@
  */
 int main(int argc, char *argv[])
 {
-	if (argc > 2)
+	if (argc < 2)
+		printf("0\n");
+
+	else if (argc > 2)
 	{
 		int x;
 
@@ -20,23 +23,14 @@ int main(int argc, char *argv[])
 		{
 			if (isdigit(argv[x]))
 			{
-				int sum;
-
-				sum = 0;
+				int sum = 0;
 
 				sum = sum + atoi(argv[x]);
-
 				printf("%d\n", sum);
 			}
 			else
-			{
 				printf("Error\n");
-				return (1);
-			}
 		}
 	}
-	else if (argc == 1);
-		printf("0\n");
-	
 	return (0);
 }
