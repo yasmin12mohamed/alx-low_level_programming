@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 
 		for (x = 0; x < argc; x++)
 		{
-			if (isdigit(argv[x]) == 0)
+			if (isdigit(argv[x]) == 1)
 				printf("Error\n");
 
 			else
