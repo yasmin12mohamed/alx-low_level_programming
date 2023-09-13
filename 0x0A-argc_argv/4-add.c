@@ -21,14 +21,15 @@ int main(int argc, char *argv[])
 
 		for (x = 0; x < argc; x++)
 		{
-			if (isdigit(argv[x]) == 0)
+			if (isdigit(argv[x]) != 0)
 			{
 				int sum = 0;
 
 				sum = sum + atoi(argv[x]);
-				printf ("%d\n", sum);
+
+				printf("%d\n", sum);
 			}
-			else
+			else if (isdigit(argv[x] == 0))
 				printf("Error\n");
 		}
 	}
