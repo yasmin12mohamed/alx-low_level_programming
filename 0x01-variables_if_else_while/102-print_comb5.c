@@ -6,26 +6,24 @@
  *
  * Return: 0
  */
-int main(void)
+#include <stdio.h>
+
+int main() 
 {
-	int x, y;
+	int i, j;
 
-	for (x = 0; x < 100; x++)
+	for (i = 0; i <= 99; i++)
 	{
-		for (y = x; y < 100; y++)
+		for (j = i; j <= 99; j++)
 		{
-			putchar((x / 10) + '0');
-			putchar((x % 10) + '0');
+			putchar(i / 10 + '0');
+			putchar(i % 10 + '0');
 			putchar(' ');
-			putchar((y / 10) + '0');
-			putchar((y % 10) + '0');
-
-			if (x != 99 && y != 99)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar(j / 10 + '0');
+			putchar(j % 10 + '0');
+			putchar(',');
+			putchar(' ');
 		}
 	}
-	return (0);
+	return 0;
 }
