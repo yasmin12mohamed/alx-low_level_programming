@@ -16,7 +16,7 @@ int main(void)
 		if ((x % 3 == 0) && (x % 5 == 0))
 		{
 			sum = sum + x;
-			printf("%d", sum)
+			printf("%d", sum);
 		}
 	}
 	putchar('\n');
