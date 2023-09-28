@@ -6,7 +6,7 @@
  * @x:the base
  * @y:the exponent
  *
- * Return:the result
+ * Return:the result or -1
  */
 int _pow_recursion(int x, int y)
 {
@@ -20,6 +20,8 @@ int _pow_recursion(int x, int y)
 	}
 	else
 	{
-		return (x * _pow_recursion(x, y - 1));
+		int result;
+		result = x * _pow_recursion(x, (y - 1));
+		return (result);
 	}
 }
