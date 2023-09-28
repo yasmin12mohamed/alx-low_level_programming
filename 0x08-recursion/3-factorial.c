@@ -5,7 +5,7 @@
  * Description:returns the factorial of a given number.
  * @n:number to find factorial of
  *
- * Return: -1 or 0
+ * Return: -1 or the factorial
  */
 int factorial(int n)
 {
@@ -22,6 +22,6 @@ int factorial(int n)
 		int result;
 
 		result = n * factorial(n - 1);
-		return(0);
+		return(result);
 	}
 }	
