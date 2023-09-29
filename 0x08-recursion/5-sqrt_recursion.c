@@ -18,7 +18,6 @@ int _sqrt(int n, int x)
 	{
 		return (x);
 	}
-	return (_sqrt(n, (x + 1)));
 }
 /**
  * _sqrt_recursion -  _sqrt_recursion block
