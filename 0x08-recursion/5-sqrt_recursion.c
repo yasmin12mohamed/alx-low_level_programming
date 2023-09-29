@@ -14,10 +14,11 @@ int _sqrt(int n, int x)
 	{
 		return (-1);
 	}
-	else
+	else if (x * x == n)
 	{
 		return (x);
 	}
+	return (_sqrt(n, (x + 1)));
 }
 /**
  * _sqrt_recursion -  _sqrt_recursion block
