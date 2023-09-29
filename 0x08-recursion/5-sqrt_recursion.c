@@ -10,13 +10,13 @@
  */
 int _sqrt(int n, int x)
 {
-	if (x * x == n)
+	if (x * x > n)
 	{
-		return (x);
+		return (-1);
 	}
 	else
 	{
-		return (-1);
+		return (x);
 	}
 	return (_sqrt(n, (x + 1)));
 }
