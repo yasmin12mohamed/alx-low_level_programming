@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - entry point
+ *
+ * Dwscription:Write a program that adds positive numbers.
  * @argc: argument count
  * @argv: argument vecctor arrray
  *
