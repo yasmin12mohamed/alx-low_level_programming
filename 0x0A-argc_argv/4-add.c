@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - entry point
+ * main - main block
  *
  * Dwscription:Write a program that adds positive numbers.
  * @argc: argument count
@@ -9,26 +9,34 @@
  *
  * Return: 0;
  */
-
 int main(int argc, char *argv[])
 {
-	int i, sum = 0;
-
-	if (argc == 1)
+	if (argc < 2)
 	{
 		printf("0\n");
 		return (0);
 	}
 
-	for (i = 1; i < argc; i++)
+	else
 	{
-		if (atoi(argv[i]) == 0)
+		int x;
+
+		for (x = 0; x < argc; x++)
 		{
-			printf("Error\n");
-			return (1);
+			if (isdigit(argv[x]) != 0)
+			{
+				int sum = 0;
+
+				sum = sum + atoi(argv[x]);
+
+				printf("%d\n", sum);
+			}
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		sum += atoi(argv[i]);
 	}
-	printf("%d\n",  sum);
 	return (0);
 }
