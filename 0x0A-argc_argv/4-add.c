@@ -22,9 +22,9 @@ int main(int argc, char *argv[])
 	{
 		int x;
 
-		for (x = 0; x < argc; x++)
+		for (x = 1; x < argc; x++)
 		{
-			if (isdigit(argv[x]) != 0)
+			if (isdigit(*argv[x]) != 0)
 			{
 				int sum = 0;
 
